@@ -1,0 +1,103 @@
+.LoginPage{
+    background-color: rgb(39, 39, 39);
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Login{
+    background-color: black;
+    height: 700px;
+    width: 55vw;
+    margin-top: -200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.image{
+    margin-left: 330px;
+    margin-top: 14px;
+}
+.text{
+
+}
+.text h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.google{
+    /* display: flex; */
+}
+.google button{
+    /* display: flex; */
+    color: white;
+    border-radius: 50px;
+    background-color: aqu;
+    width: 23vw;
+    height: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+    border: solid 1px rgb(209, 208, 208);
+}
+.google button h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.facebook button{
+    color: white;
+    border-radius: 50px;
+    background-color: aqu;
+    width: 23vw;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid 1px rgb(209, 208, 208);
+}
+.facebook button h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.apple button{
+    color: white;
+    border-radius: 50px;
+    background-color: aqu;
+    width: 23vw;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: solid 1px rgb(209, 208, 208);
+}
+.apple button h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.number button{
+    color: white;
+    border-radius: 50px;
+    background-color: aqu;
+    width: 23vw;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: solid 1px rgb(209, 208, 208);
+}
+.number button h1{
+    font-size: 17px;
+    font-weight: 500;
+}
+.line{
+    background-color: rgb(119, 119, 119);
+    height: 0.1px;
+    width: 37vw;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.email{
+    margin-top: 20px;
+    margin-right: 170px;
+}
+.email h1{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}

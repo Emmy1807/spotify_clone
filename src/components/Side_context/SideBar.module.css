@@ -1,0 +1,195 @@
+.SideBar{
+    width: 32.5vw;
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+    height: 500px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .SideBar {
+        width: 50vw;
+    }
+    .Lib {
+        display: flex;
+        width: 50vw;
+    }
+    .plus {
+        display: none;
+    }
+    .second {
+        width: 40vw;
+        margin-left: 30px;
+        background-color: aqua;
+    }
+    .sec {
+        width: 100%;
+    }
+    .sec button{
+        display: none;
+    }
+    .third button{
+        display: none;
+    }
+   
+}
+.Lib{
+    display: flex;
+    padding: 23px;
+    gap: 15px;
+}
+.Lib img{
+    height: 20px;
+    cursor: pointer;
+}
+.Lib h1{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(148, 147, 147);
+    text-decoration: solid;
+    cursor: pointer;
+    
+}
+.Lib h1:hover{
+    color: white;
+
+}
+.plus img{
+    margin-left: 220px;
+}
+.second{
+    background-color: crimso;
+    height: 225px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    /* -ms-overflow-style: none; */
+}
+.sec{
+    background-color: rgb(39, 38, 38);
+    height: 132px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin: 25px;
+    margin-left: 10px;
+    width: 31vw;
+}
+.sec h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    padding-left: 1px;
+}
+.sec h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(238, 235, 235);
+    padding-bottom: 20px;
+}
+.sec button{
+    background-color: white;
+    width: 10vw;
+    height: 32px;
+    border-radius: 20px;
+    
+}
+.sec h4{
+    font-weight: 700;
+    font-size: 14px;
+}
+.third{
+    background-color: rgb(39, 38, 38);
+    height: 130px;
+    width: 31vw;
+    margin: 10px;
+    border-radius: 5px;
+}
+.third h1{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-left: 17px;
+    padding-top: 17px;
+}
+.third h2{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(228, 225, 225);
+    padding-left: 17px;
+    padding-top: 8px;
+}
+.third button{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 9vw;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.third button h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+.fourth{
+    width: 28vw;
+    padding-top: 23px;
+    height: 80px;
+}
+.text{
+    display: flex;
+    padding-left: 15px;
+}
+
+.text h1{
+    color: rgb(146, 145, 145);
+    padding: 7px;
+    text-decoration: solid;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.texts{
+    display: flex;
+    padding-left: 15px;
+}
+.texts h1{
+    color: rgb(146, 145, 145);
+    padding: 7px;
+    text-decoration: solid;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.cookies{
+    padding-left: 25px;
+}
+.cookies h1{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.but{
+    padding-left: 15px;
+    padding: 6px;
+    margin: 15px;
+}
+.but img{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+.but button{
+    background-color:rgb(24, 23, 23);
+    width: 7vw;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    border-radius: 15px;
+    border: solid 1px white;
+
+}
+.but h1{
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 500;
+}

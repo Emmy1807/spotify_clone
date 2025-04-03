@@ -1,0 +1,437 @@
+
+.SearchResults{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 63%;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 10px;
+    scrollbar-width: none;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+}
+.all {
+    margin-top: 55px;
+}
+.Artist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Artist h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.Artist li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: blu;
+    gap: 10px;
+}
+.Artist h2{
+    color: white;
+    width: 11.2vw;
+    margin-left: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Artist h3{
+    color: rgb(160, 158, 158);
+    font-size: 15px;
+    font-weight: 500;
+}
+.Artist img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.con{
+    height: 200px;
+    width: 150px;
+}
+.content{
+    margin-top: 55px;
+}
+.artist{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 45%;
+    overflow: hidden;
+    margin-left: 0px;
+    background-color: blueviole;
+}
+.cover{
+    height: 200px;
+    width: 150px;
+}
+.artist li{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: blu;
+    gap: 10px;
+}
+.artist h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.artist img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}    
+.artist h2{
+    color: white;
+    width: 11.2vw;
+    margin-left: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+}
+.artist h3{
+    color: rgb(160, 158, 158);
+    font-size: 15px;
+    font-weight: 500;
+}
+.Album{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* justify-content: center; */
+    width: 45%;
+    gap: 13px;
+    /* overflow: hidden; */
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+    /* height: 320px; */
+}
+.Frame{
+    width: 150px;
+    height: 220px;
+    /* overflow: hidden;
+    background-color: aquamarine; */
+}
+.Album h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.Album li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+    background-color: blu;
+}     
+.Frame img{
+    height: 150px;
+    width: 150px;
+    gap: 0px;
+    object-fit: cover;
+    border-radius: 8px;
+}   
+.Frame h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Frame{
+    color: rgb(160, 158, 158);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.albums{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* justify-content: center; */
+    width: 45%;
+    gap: 13px;
+    overflow: hidden;
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+    /* height: 320px; */
+}
+.frame{
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+    background-color: aquamarin;
+}
+.albums h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.albums li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+    background-color: blu;
+}        
+.frame h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.frame h3{
+    display: flex;
+    gap: 4px;
+    width: 15vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.frame h4{
+    background-color: blu;
+    width: 31px;
+    overflow: hidden;
+    height: 20px;
+}
+.albums li{
+    color: white;
+}
+.frame img{
+    height: 150px;
+    width: 150px;
+    gap: 0px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.pod{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* justify-content: center; */
+    width: 45%;
+    gap: 13px;
+    overflow: hidden;
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+    /* height: 320px; */
+}
+.shows{
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+    background-color: aquamarin;
+}
+.pod h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+
+.pod li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+    background-color: blu;
+}  
+.shows img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+   
+}   
+.shows h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.shows h3{
+    display: flex;
+    margin-top: -5px;
+    width: 15vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.episode{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* width: 45%; */
+    gap: 13px;
+    overflow: hidden;
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.episode h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.episode li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+    background-color: blu;
+}  
+.episodes img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+   
+}   
+.episodes h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.episodes h3{
+    display: flex;
+    width: 15vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.episodes h3{
+    background-color: blu;
+    width: 31px;
+    overflow: hidden;
+    height: 20px;
+}
+.playlist{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 45%;
+    gap: 13px;
+    overflow: hidden;
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.playlist li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+     gap: 10px;
+}
+
+.playlist h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.list{
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+    background-color: darkre;
+}
+.list img{
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+} 
+.playlist h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.playlist h3{
+    display: flex;
+    width: 15vw;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.track{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 45%;
+    gap: 13px;
+    overflow: hidden;
+    background-color: aqu;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+}
+.track h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 33px;
+}
+.track li{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+    background-color: blu;
+}  
+.track img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+   
+}   
+.track h2{
+    color: white;
+    width: 10vw;
+    overflow: hidden;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.track h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 158, 158);
+}
+.each{
+    width: 150px;
+    height: 220px;
+    overflow: hidden;
+} 
+
